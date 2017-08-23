@@ -362,7 +362,7 @@ function doDecrypt(pwd, onError) {
    document.getElementById("enc_passwd").style.display = "none";
 }
 </script>
-<div id="enc_content" style="display:none">U2FsdGVkX1/FduWQZgIH0pp+4FKazEo5tIoaN1frhuvgjlZ0jmAOvLGxMjVgirw/m91+K/jj+7Pou2dGVuWKZnaZsGU8Kqb9C1KIYleP9/6WuJSObLg0YgHMwxnYEIb0bO+NVSiJQxJa1RktNaJh8/D4IDgjgBBcqjJWmaMQtuzN61Xcw+ZwCqU6bPIsp2rIBwJ380zCIyftLAR9L0+C3c0aIyWseH0hjQ4aXda82o8=</div><div id="enc_passwd"> <input id="enc_pwd_input" type="text" style="border-radius: 5px;border-style: groove;height: 30px;width: 50%;cursor: auto;font-size: 102%;color: currentColor;outline: none;text-overflow: initial;padding-left: 5px;" onkeydown="if (event.keyCode == 13) { decrypt(); return false;}"> <input type="submit" value="解&nbsp;密" onclick="decrypt()" style="width: 58px;height: 34px;border-radius: 5px;background-color: white;border-style: solid;color: currentColor;"><div id="enc_error" style="display: inline-block;color: #d84527;margin-left: 10px"></div>
+<div id="enc_content" style="display:none">U2FsdGVkX18rbhTbzL9P3cVkj1PnRysXXjsXiV74zVwhgvnj6GoBk4WcPDc4eoStTf9sJFDdDFAg1cFp98hYlGcR+wz3Mw7YUKZQoK/k56Vl0jLyNYJrvw8m6lGTQWyE5gW8s4GsrGjBH8GacPtBpX4ZWZphq4HTmA0pDIMjyJJDU5Fd7a9InmTPzZGOyKrVh1h6Xdn2XeoMHkyLq+KbZcLI3EXvyAQJttdV1x6DZtg=</div><div id="enc_passwd"> <input id="enc_pwd_input" type="text" style="border-radius: 5px;border-style: groove;height: 30px;width: 50%;cursor: auto;font-size: 102%;color: currentColor;outline: none;text-overflow: initial;padding-left: 5px;" onkeydown="if (event.keyCode == 13) { decrypt(); return false;}"> <input type="submit" value="解&nbsp;密" onclick="decrypt()" style="width: 58px;height: 34px;border-radius: 5px;background-color: white;border-style: solid;color: currentColor;"><div id="enc_error" style="display: inline-block;color: #d84527;margin-left: 10px"></div>
 <script>
 var onError = function(error) {
 	document.getElementById("enc_error").innerHTML = "password error!"
@@ -406,6 +406,10 @@ doDecrypt(passwd, onError);
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2017/08/22/python记录1/" rel="prev" title="python记录1">
+                python记录1 <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -473,7 +477,7 @@ doDecrypt(passwd, onError);
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-count">3</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -484,7 +488,7 @@ doDecrypt(passwd, onError);
             
             <div class="site-state-item site-state-categories">
               <a href="/categories/index.html">
-                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-count">3</span>
                 <span class="site-state-item-name">分类</span>
               </a>
             </div>
@@ -495,7 +499,7 @@ doDecrypt(passwd, onError);
             
             <div class="site-state-item site-state-tags">
               <a href="/tags/index.html">
-                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-count">2</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
